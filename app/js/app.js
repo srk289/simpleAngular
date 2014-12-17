@@ -12,7 +12,7 @@ angular
 	.module('app', ['ngRoute'])
 	.config(configDetails)
 	.controller('LoginController', function(){
-	//	console.log('loginController is triggered');
+		console.log('loginController is triggered');
 	});
 
 
